@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "movinder-test": {
+      "hosting": {
+        "ng-studio-test": [
+          "movinder-test"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "movinder-test"
+  }
+}

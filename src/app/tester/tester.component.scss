@@ -1,0 +1,17 @@
+section {
+	color: #469cb9;
+
+	button {
+		padding: 10px;
+		position: relative;
+		display: flex;
+	}
+}
+
+section.test {
+	text-align: left;
+	color: #ad35b0;
+	background-image: url(src/assets/Simbelmyne.jpg);
+	background-position: center;
+	background-size: cover;
+}

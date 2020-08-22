@@ -30,7 +30,8 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [],
+            "outputHashing": "all"
           },
           "configurations": {
             "production": {
@@ -121,8 +122,13 @@
               "devServerTarget": "ng-studio-test:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "ng-studio-test"
 }

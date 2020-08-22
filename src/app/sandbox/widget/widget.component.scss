@@ -1,0 +1,16 @@
+:host {
+  position: fixed;
+}
+
+:host:hover, :host.selected {
+  cursor: pointer;
+  border-style: solid;
+  border-color: transparent;
+  border-width: 2px;
+}
+:host:hover {
+  border-color: rgba(43, 117, 160, 0.2);
+}
+:host.selected, :host:hover.selected {
+  border-color: rgba(43, 117, 160, 0.9);
+}

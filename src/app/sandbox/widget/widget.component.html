@@ -1,0 +1,7 @@
+<ng-container *ngIf="node.children.length">
+  <ng-container *ngFor="let child of node.children; let i = index">
+    <ng-container *ngIf="child.name && child.name !== 'app-widget'">
+      <app-widget [node]="child" [selector]="childSelector(child, i)"></app-widget>
+    </ng-container>
+  </ng-container>
+</ng-container>
